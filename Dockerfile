@@ -3,7 +3,6 @@ FROM nginx:stable
 
 
 # define working directory
-WORKDIR /usr/share/nginx/html
-
+WORKDIR /usr/share/nginx/html/app
 # Copy working directory "."
 COPY . . 
